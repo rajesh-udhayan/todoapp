@@ -12,6 +12,7 @@ jobs:
         run: |
           echo "Setting Workflow Variable"
           echo "name=Max" >> "$GITHUB_OUTPUT"
+          echo "name=Smile" >> "$GITHUB_OUTPUT"
       - name: Use Workflow Variable
         run: |
           echo "Workflow Variable Value: ${{ steps.set_var.outputs.name }}"
