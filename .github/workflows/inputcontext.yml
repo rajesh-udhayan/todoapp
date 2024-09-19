@@ -15,5 +15,5 @@ jobs:
     steps:
       - name: Use Workflow Input
         run: |
-          echo "DEBUG: ${{ inputs.debug }}"
           echo "DEBUG: ${{ inputs.somevalue }}"
+          echo "DEBUG: ${{ inputs.debug }}"
